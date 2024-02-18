@@ -8,21 +8,15 @@
     "require": {
         "devuri/wp-framework": "^5.0",
         "devuri/advanced-custom-site-status": "*",
-        "wpackagist-plugin/application-passwords-manager": "*",
-        "wpackagist-plugin/sim-clickable-links": "*",
         "wpackagist-plugin/disable-comments": "*",
         "wpackagist-plugin/disable-json-api": "*",
-        "wpackagist-plugin/elementor": "*",
         "wpackagist-plugin/email-log": "*",
-        "wpackagist-plugin/worker": "*",
         "wpackagist-plugin/query-monitor": "*",
-        "wpackagist-plugin/slim-seo": "*",
         "wpackagist-plugin/stream": "*",
         "wpackagist-plugin/sucuri-scanner": "*",
         "wpackagist-plugin/wp-white-label-login": "*",
         "wpackagist-plugin/wp-auto-updates": "*",
         "wpackagist-theme/kadence": "*",
-        "wpackagist-theme/hello-elementor": "*",
         "wpackagist-theme/twentytwentythree": "*"
     },
     "repositories": [
