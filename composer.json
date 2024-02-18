@@ -1,13 +1,12 @@
 {
-    "name": "devuri/wp-example",
+    "name": "devuri/wpframework",
     "type": "project",
     "license": "MIT",
-    "description": "Website.",
+    "description": "Effortlessly spin up a fully-configured WordPress site in no time, specifically engineered for rapid development and deployment of secure, scalable WordPress applications.",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "devuri/wp-framework": "^5.0",
-        "devuri/easy-code-highlighter": "*",
         "devuri/advanced-custom-site-status": "*",
         "wpackagist-plugin/application-passwords-manager": "*",
         "wpackagist-plugin/sim-clickable-links": "*",
@@ -22,7 +21,6 @@
         "wpackagist-plugin/sucuri-scanner": "*",
         "wpackagist-plugin/wp-white-label-login": "*",
         "wpackagist-plugin/wp-auto-updates": "*",
-        "wpackagist-plugin/insert-headers-and-footers": "*",
         "wpackagist-theme/kadence": "*",
         "wpackagist-theme/hello-elementor": "*",
         "wpackagist-theme/twentytwentythree": "*"
@@ -35,10 +33,6 @@
                 "wpackagist-plugin/*",
                 "wpackagist-theme/*"
             ]
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/devuri/easy-code-highlighter"
         }
     ],
     "extra": {
