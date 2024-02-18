@@ -65,11 +65,11 @@ Access your project's URL in a web browser to initiate the WordPress setup, or e
 
 ## Documentation
 
-Dive into the [WPFramework Documentation](#) for detailed setup instructions, feature overviews, and best practices to maximize your project's potential.
+For more detailed instructions and comprehensive documentation, visit [WPFramework Documentation](#).
 
 ## Contributing
 
-We welcome your contributions! For feature suggestions, bug fixes, or code contributions, please consult our [Contributing Guidelines](#) for more information.
+If you have ideas for improvements or want to contribute code, please follow our [Contributing Guidelines](#).
 
 ## Support
 
@@ -77,4 +77,4 @@ Need help or have a question? Open an issue on our [GitHub repository](https://g
 
 ## License
 
-WPFramework is open-source software, available under the [MIT License](LICENSE), fostering an open and collaborative development environment.
+This project is open-sourced software licensed under the [MIT License](LICENSE).
