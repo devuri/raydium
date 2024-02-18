@@ -73,7 +73,7 @@ We welcome your contributions! For feature suggestions, bug fixes, or code contr
 
 ## Support
 
-Encountering issues or have questions? Post an issue on our [GitHub repository](https://github.com/devuri/wpframework/issues), and we'll gladly assist.
+Need help or have a question? Open an issue on our [GitHub repository](https://github.com/devuri/wpframework/issues)
 
 ## License
 
