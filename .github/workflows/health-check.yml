@@ -1,0 +1,36 @@
+name: Health Check
+
+on:
+  pull_request:
+    types:
+      - closed
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 minutes
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check application health
+      id: healthCheck
+      uses: fjogeleit/http-request-action@v1.8.0
+      with:
+        url: 'https://example.com/d97d6dd920fe2426d3afd7aab0e4237f'
+        method: 'GET'
+
+    - name: Notify if unhealthy
+      if: failure()
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_CHANNEL: general  # Replace with your actual Slack channel name
+        SLACK_ICON: https://user-images.githubusercontent.com/4777400/225331174-d5ae1c0e-5ec0-493b-aabc-91c4cc6a14c4.png
+        SLACK_COLOR: '#FF0000'  # Red color for failure notification
+        SLACK_TITLE: Check application health
+        SLACK_MESSAGE: 'Health check failed for example.com'
+        SLACK_USERNAME: Health Check @example.com
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}  # Ensure you have set the SLACK_WEBHOOK in your repo secrets
+        SLACK_FOOTER: 'Advanced custom health check endpoint'
+        MSG_MINIMAL: true
+

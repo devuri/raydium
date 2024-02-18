@@ -1,0 +1,64 @@
+{
+    "name": "devuri/wp-example",
+    "type": "project",
+    "license": "MIT",
+    "description": "Website.",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "devuri/wp-framework": "^5.0",
+        "devuri/easy-code-highlighter": "*",
+        "devuri/advanced-custom-site-status": "*",
+        "wpackagist-plugin/application-passwords-manager": "*",
+        "wpackagist-plugin/sim-clickable-links": "*",
+        "wpackagist-plugin/disable-comments": "*",
+        "wpackagist-plugin/disable-json-api": "*",
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/email-log": "*",
+        "wpackagist-plugin/worker": "*",
+        "wpackagist-plugin/query-monitor": "*",
+        "wpackagist-plugin/slim-seo": "*",
+        "wpackagist-plugin/stream": "*",
+        "wpackagist-plugin/sucuri-scanner": "*",
+        "wpackagist-plugin/wp-white-label-login": "*",
+        "wpackagist-plugin/wp-auto-updates": "*",
+        "wpackagist-plugin/insert-headers-and-footers": "*",
+        "wpackagist-theme/kadence": "*",
+        "wpackagist-theme/hello-elementor": "*",
+        "wpackagist-theme/twentytwentythree": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/devuri/easy-code-highlighter"
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "public/wp",
+        "installer-paths": {
+            "public/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "public/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "public/app/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true
+        }
+    }
+}
