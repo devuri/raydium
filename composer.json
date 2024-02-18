@@ -2,7 +2,7 @@
     "name": "devuri/wpframework",
     "type": "project",
     "license": "MIT",
-    "description": "Effortlessly spin up a fully-configured WordPress site in no time, specifically engineered for rapid development and deployment of secure, scalable WordPress applications.",
+    "description": "Effortlessly spin up a fully-configured WordPress site in no time, specifically engineered for rapid development and deployment of secure, scalable WordPress applications, that support multiple tenants from a single installation.",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
