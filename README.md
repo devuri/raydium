@@ -1,6 +1,6 @@
-# WPFramework
+# WP Raydium
 
-Seamlessly launch a fully-equipped WordPress site with `devuri/wpframework`, specifically engineered for the rapid development and deployment of secure, scalable WordPress applications. Inspired by the ease of modern development frameworks, it delivers a frictionless setup process infused with industry-leading best practices from the outset.
+Seamlessly launch a fully-equipped WordPress site with `devuri/raydium`, specifically engineered for the rapid development and deployment of secure, scalable WordPress applications. Inspired by the ease of modern development frameworks, it delivers a frictionless setup process infused with industry-leading best practices from the outset.
 
 ## Features
 
@@ -9,7 +9,7 @@ Seamlessly launch a fully-equipped WordPress site with `devuri/wpframework`, spe
 - **Built for Scalability**: Ideal for crafting everything from personal blogs to expansive, [multi-tenant](https://devuri.github.io/wp-framework/multi-tenant/) web applications.
 - **Security-First Design**: Pre-configured with security best practices to keep your site safe.
 - **Developer Tools**: Integrated tools for debugging, testing, and deployment to enhance your workflow.
-  
+
 - **Modular Framework**: Encourages a structured approach to WordPress development, allowing efficient management and reusability of code through modules or packages.
 - **Efficient Dependency Management**: Utilizes Composer for streamlined management of plugins, themes, and libraries, for simple dependency inclusion and updates.
 - **Flexible Environment Configuration**: Leverages `.env` files for environment-specific configurations, facilitating easy management of database connections, API keys, and more across various deployment stages.
@@ -33,7 +33,7 @@ Seamlessly launch a fully-equipped WordPress site with `devuri/wpframework`, spe
 Execute the following command in your terminal to create a new project:
 
 ```shell
-composer create-project devuri/wpframework your-project-name
+composer create-project devuri/raydium your-project-name
 ```
 > Remember to replace `your-project-name` with the desired name for your project directory.
 
@@ -65,7 +65,7 @@ Access your project's URL in a web browser to initiate the WordPress setup, or e
 
 ## Documentation
 
-For more detailed instructions and comprehensive documentation, visit [WPFramework Documentation](#).
+For more detailed instructions and comprehensive documentation, visit [Raydium Documentation](#).
 
 ## Contributing
 
@@ -73,7 +73,7 @@ If you have ideas for improvements or want to contribute code, please follow our
 
 ## Support
 
-Need help or have a question? Open an issue on our [GitHub repository](https://github.com/devuri/wpframework/issues)
+Need help or have a question? Open an issue on our [GitHub repository](https://github.com/devuri/raydium/issues)
 
 ## License
 
