@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "devuri/wp-framework": "^5.0",
+        "devuri/wpframework": "^5.0",
         "devuri/advanced-custom-site-status": "*",
         "wpackagist-plugin/disable-comments": "*",
         "wpackagist-plugin/disable-json-api": "*",
