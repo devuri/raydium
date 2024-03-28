@@ -1,5 +1,7 @@
 <?php
 
+use WPframework\Component\Kernel;
+
 /*
  * This is the bootstrap file for the web application.
  *
@@ -17,14 +19,14 @@ if (file_exists(\dirname(__FILE__) . "/vendor/autoload.php")) {
  *
  * @var Kernel
  */
-$http_app = wpframework(__DIR__);
+$raydium_http = http_component_kernel(__DIR__);
 
 /*
  * Load constant overrides.
  *
  * This will load constant values that override constants defined in setup.
  */
-$http_app->overrides();
+$raydium_http->overrides();
 
 /*
  * Configuration settings for your web application.
@@ -33,7 +35,7 @@ $http_app->overrides();
  * The possible values are: 'debug', 'development', 'staging', 'production', or 'secure'.
  * The web application will use either the value of WP_ENVIRONMENT_TYPE or 'production'.
  */
-$http_app->init();
+$raydium_http->init();
 
 /**
  * WordPress Database Table prefix.
