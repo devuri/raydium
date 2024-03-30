@@ -24,6 +24,9 @@ Raydium is a WordPress micro-enhancement framework that enables you to swiftly a
 - **Modern Development**: Supports the integration of modern build tools and frontend technologies, streamlining the development workflow for efficiency and innovation.
 - **Multi-Tenancy Support**: Features robust multi-tenant capabilities, allowing for the management of distinct websites within a shared framework, each with its own database, settings, and customizations for unparalleled flexibility.
 
+
+> Supercharge your WordPress development with Raydium, the modern framework designed for efficiency, scalability, and security.
+
 ## Getting Started
 
 ### Prerequisites
