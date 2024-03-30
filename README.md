@@ -4,6 +4,10 @@ Seamlessly launch a fully-equipped WordPress site with `devuri/raydium`, specifi
 
 > Raydium - Crafting WordPress Excellence, Simplified
 
+
+Raydium is a WordPress micro-enhancement framework that enables you to swiftly architect robust and elegant web solutions, redefining simplicity and power.
+
+
 ## Features
 
 - **Instant Setup**: Kickstart a WordPress project instantly with a single command.
