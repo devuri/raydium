@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/devuri/raydium/compare/v0.2.2...v0.2.3) (2024-04-02)
+
+
+### Bug Fixes
+
+* update Delete public/mu-plugins directory ([1070393](https://github.com/devuri/raydium/commit/1070393cad20166fc03381527e74076599b7f865))
+
 ## [0.2.2](https://github.com/devuri/raydium/compare/v0.2.1...v0.2.2) (2024-04-02)
 
 
