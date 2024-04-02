@@ -17,7 +17,7 @@
         "wpackagist-plugin/wp-white-label-login": "*",
         "wpackagist-plugin/wp-auto-updates": "*",
         "wpackagist-theme/kadence": "*",
-        "wpackagist-theme/twentytwentythree": "*"
+        "wpackagist-theme/twentytwentyfour": "*"
     },
     "repositories": [
         {
