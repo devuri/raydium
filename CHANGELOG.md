@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/devuri/raydium/compare/v0.2.1...v0.2.2) (2024-04-02)
+
+
+### Bug Fixes
+
+* update for ^0.2 Update composer.json ([174ff53](https://github.com/devuri/raydium/commit/174ff53f06e339b7189d62747e2c061694d76698))
+
 ## [0.2.1](https://github.com/devuri/raydium/compare/0.2.0...v0.2.1) (2024-04-02)
 
 
