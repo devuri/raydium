@@ -12,7 +12,7 @@ Raydium is a WordPress micro-enhancement framework that enables you to swiftly a
 
 - **Instant Setup**: Kickstart a WordPress project instantly with a single command.
 - **Best Practices**: Comes configured with modern development practices and standards.
-- **Built for Scalability**: Ideal for crafting everything from personal blogs to expansive, [multi-tenant](https://devuri.github.io/wp-framework/multi-tenant/) web applications.
+- **Built for Scalability**: Ideal for crafting everything from personal blogs to expansive, [multi-tenant](https://devuri.github.io/wpframework/multi-tenant/overview) web applications.
 - **Security-First Design**: Pre-configured with security best practices to keep your site safe.
 - **Developer Tools**: Integrated tools for debugging, testing, and deployment to enhance your workflow.
 
@@ -27,62 +27,10 @@ Raydium is a WordPress micro-enhancement framework that enables you to swiftly a
 
 > Supercharge your WordPress development with Raydium, the modern framework designed for efficiency, scalability, and security.
 
-## Getting Started
-
-### Prerequisites
-
-- PHP version 7.4 or newer
-- Composer
-- MySQL or MariaDB database
-
-### Launching Your Project
-
-#### Installation
-
-Execute the following command in your terminal to create a new project:
-
-```shell
-composer create-project devuri/raydium your-project-name
-```
-> Remember to replace `your-project-name` with the desired name for your project directory.
-
-Upon installation completion, a new `.env` file appears in your project directory, populated with essential environment variables.
-
-**Project Configuration**:
-
-```bash
-cd your-project-name
-```
-
-Edit the `.env` file to configure your database and site URL:
-
-```shell
-WP_HOME='https://yourdomain.com'
-WP_SITEURL="${WP_HOME}/wp"
-
-DB_NAME=your_db_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_HOST=localhost
-```
-
-Ensure **WP_HOME** is updated to reflect your site's URL.
-
-#### WordPress Installation
-
-Access your project's URL in a web browser to initiate the WordPress setup, or employ WP-CLI for installation. Customize your WordPress application to meet your specific requirements through the available settings.
 
 ## Documentation
 
-For more detailed instructions and comprehensive documentation, visit [Raydium Documentation](#).
-
-## Contributing
-
-If you have ideas for improvements or want to contribute code, please follow our [Contributing Guidelines](#).
-
-## Support
-
-Need help or have a question? Open an issue on our [GitHub repository](https://github.com/devuri/raydium/issues)
+Explore the extensive [Raydium Documentation](https://devuri.github.io/wpframework/) to learn about its installation, configuration, and the features it offers. The documentation includes detailed guides, API references, and best practices to help you maximize your use of Raydium.
 
 ## License
 
