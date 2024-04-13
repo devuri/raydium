@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/devuri/raydium/compare/v0.2.3...v0.3.0) (2024-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* add v0.3 Update composer.json
+
+### Features
+
+* add v0.3 Update composer.json ([65c8cc0](https://github.com/devuri/raydium/commit/65c8cc03688b94f3918e996e8fb44de61c1bc589))
+
 ## [0.2.3](https://github.com/devuri/raydium/compare/v0.2.2...v0.2.3) (2024-04-02)
 
 
