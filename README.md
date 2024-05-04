@@ -6,19 +6,26 @@ Seamlessly launch a fully-equipped WordPress site with `devuri/raydium`, specifi
 
 ## Installation
 
-To get started with Raydium, make sure you have the following prerequisites:
+Begin by ensuring you meet the prerequisites needed for a successful installation of Raydium:
 
-- PHP version 7.4 or higher.
-- Composer to manage PHP dependencies.
-- A MySQL or MariaDB database.
-- Terminal access to execute Raydium and other related commands.
+- PHP version 7.4 or above is required.
+- Composer, for managing PHP dependencies.
+- Access to a MySQL or MariaDB database.
+- Terminal access for executing commands related to Raydium and other operations.
 
-To install Raydium using Composer use the following command:
+To install Raydium with Composer, run the following command in your terminal:
 
 ```shell
 composer create-project devuri/raydium your-project-name
 ```
 
+After the installation, you can start testing Raydium locally by using this command:
+
+```shell
+php -S localhost:8000 -t public -c .user.ini
+```
+
+This will serve your project on a local development server at `localhost:8000`.
 
 ## Documentation
 
