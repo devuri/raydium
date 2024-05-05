@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/devuri/raydium/compare/v0.3.2...v0.3.3) (2024-05-05)
+
+
+### Bug Fixes
+
+* add create an auth.json file for a Composer project that will use GitHub for package installations ([15879ee](https://github.com/devuri/raydium/commit/15879ee35c094ab8d8c2cb1a90994a64fc4cfd90))
+
 ## [0.3.2](https://github.com/devuri/raydium/compare/v0.3.1...v0.3.2) (2024-05-04)
 
 
