@@ -16,7 +16,9 @@
  * To modify the setup, please refer to the documentation for instructions.
  *
  */
-require_once __DIR__ . '/../bootstrap.php';
+if ( file_exists(__DIR__ . '/../bootstrap.php') ) {
+	require_once __DIR__ . '/../bootstrap.php';
+}
 
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
