@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.4](https://github.com/devuri/raydium/compare/v0.3.3...v0.3.4) (2024-07-10)
+
+
+### Bug Fixes
+
+* "symfony/error-handler": "^5.0", ([2fecc00](https://github.com/devuri/raydium/commit/2fecc006377330842d0889fda4f9b2b77c0d52df))
+* symfony-error-handle ^5.0, Update composer.json ([2fecc00](https://github.com/devuri/raydium/commit/2fecc006377330842d0889fda4f9b2b77c0d52df))
+
 ## [0.3.3](https://github.com/devuri/raydium/compare/v0.3.2...v0.3.3) (2024-05-05)
 
 
