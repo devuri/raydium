@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.6](https://github.com/devuri/raydium/compare/v0.3.5...v0.3.6) (2024-07-17)
+
+
+### Bug Fixes
+
+* adds `devuri/wp-kdx-canvas`Update composer.json ([7919884](https://github.com/devuri/raydium/commit/79198846cee350d90587b3b25e612bbddc10f53f))
+
 ## [0.3.5](https://github.com/devuri/raydium/compare/v0.3.4...v0.3.5) (2024-07-17)
 
 
