@@ -18,6 +18,7 @@
         "wpackagist-plugin/sucuri-scanner": "*",
         "wpackagist-plugin/wp-white-label-login": "*",
         "wpackagist-theme/kadence": "*",
+        "devuri/wp-kdx-canvas": "^0.2",
         "wpackagist-theme/twentytwentyfour": "*"
     },
     "repositories": [
