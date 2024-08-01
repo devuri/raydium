@@ -1,7 +1,4 @@
-#
-# This runs after changes are merged to `master`.
-#
-name: Release
+name: Release 🟢
 on:
   pull_request:
     types:
@@ -9,18 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  if_merged:
-    if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    steps:
-    - run: echo The PR was merged
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Run release-please
-        uses: google-github-actions/release-please-action@v3
+      - name: Release 🟢
+        uses: googleapis/release-please-action@v4
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          command: manifest
-          default-branch: main
