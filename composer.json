@@ -8,7 +8,6 @@
     "require": {
         "devuri/wpframework": "^0.3",
         "johnpbloch/wordpress": "^6.5",
-        "symfony/error-handler": "^5.0",
         "devuri/advanced-custom-site-status": "*",
         "wpackagist-plugin/disable-comments": "*",
         "wpackagist-plugin/disable-json-api": "*",
