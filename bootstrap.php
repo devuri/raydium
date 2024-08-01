@@ -28,14 +28,14 @@ define( 'RAYDIUM_ENVIRONMENT_TYPE', null );
  *
  * @var Kernel
  */
-$http_app = http_component_kernel( __DIR__ );
+$raydium_http = http_component_kernel( __DIR__ );
 
 /*
  * Load constant overrides.
  *
  * This will load constant values that override constants defined in setup.
  */
-$http_app->overrides();
+$raydium_http->overrides();
 
 /*
  * Configuration settings for your web application.
@@ -46,7 +46,7 @@ $http_app->overrides();
  * By default the value `RAYDIUM_ENVIRONMENT_TYPE` constant is used.
  * `RAYDIUM_ENVIRONMENT_TYPE` defaults to `null` if it is not set.
  */
-$http_app->init( RAYDIUM_ENVIRONMENT_TYPE );
+$raydium_http->init( RAYDIUM_ENVIRONMENT_TYPE );
 
 /**
  * WordPress Database Table prefix.
