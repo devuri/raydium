@@ -28,7 +28,7 @@ This will serve your project on a local development server at `localhost:8000`.
 ## Use Template
 
 You can also use RaydiumX, a template repository with additional features and setup, including deploy actions. Access it here: [RaydiumX](https://github.com/devuri/radiumx). 
-The RaydiumX template is optional and may include opinionated setup. For a more minimal version, use Raydium.
+The RaydiumX template is optional and may include opinionated setup.
 
 > There is also a basic minimal version [RaydiumXE](https://github.com/devuri/raydiumxe) template repository.
 
