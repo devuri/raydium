@@ -1,7 +1,6 @@
 <?php
 
 /**
- * @wordpress-plugin
  * Plugin Name:       WP-Framework Core
  * Plugin URI:        https://github.com/devuri/wpframework
  * Description:       Web Application Framework provides `wpframework_init` action and bootstrap file.
@@ -10,7 +9,7 @@
  * Requires PHP:      7.3.5
  * Author:            Uriel
  * Author URI:        https://devuri.github.io/wpframework
- * Text Domain:       wp-wpframework
+ * Text Domain:       wpframework
  * Domain Path:       languages
  * License:           GPLv2
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
