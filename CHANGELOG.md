@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.8](https://github.com/devuri/raydium/compare/v0.3.7...v0.3.8) (2024-09-09)
+
+
+### Bug Fixes
+
+* Update wp-config.php ([d05e26a](https://github.com/devuri/raydium/commit/d05e26aa6f01b4498ce5da17afdd3c008429d226))
+
 ## [0.3.7](https://github.com/devuri/raydium/compare/v0.3.6...v0.3.7) (2024-08-01)
 
 
