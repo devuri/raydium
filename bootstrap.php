@@ -21,7 +21,9 @@ if ( file_exists( \dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
  *
  * @var string|null RAYDIUM_ENVIRONMENT_TYPE The environment type, can be null to use the .env file setup.
  */
-define( 'RAYDIUM_ENVIRONMENT_TYPE', null );
+if ( ! defined( 'RAYDIUM_ENVIRONMENT_TYPE' ) ) {
+	define( 'RAYDIUM_ENVIRONMENT_TYPE', null );
+}
 
 /**
  * Start and bootstrap the web application.
