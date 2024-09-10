@@ -1,6 +1,6 @@
 <?php
 
-use WPframework\Component\Kernel;
+use WPframework\Component\App;
 
 /*
  * This is the bootstrap file for the web application.
@@ -14,23 +14,21 @@ if ( file_exists( \dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
     exit( 'Cant find the vendor autoload file.' );
 }
 
-/**
+/*
  * Override for .env setup of `WP_ENVIRONMENT_TYPE`.
  *
  * This is optional; if you prefer to use the .env file, set this to null or remove it.
  *
  * @var string|null RAYDIUM_ENVIRONMENT_TYPE The environment type, can be null to use the .env file setup.
  */
-if ( ! defined( 'RAYDIUM_ENVIRONMENT_TYPE' ) ) {
-	define( 'RAYDIUM_ENVIRONMENT_TYPE', null );
+if ( ! \defined( 'RAYDIUM_ENVIRONMENT_TYPE' ) ) {
+    \define( 'RAYDIUM_ENVIRONMENT_TYPE', null );
 }
 
 /**
  * Start and bootstrap the web application.
- *
- * @var Kernel
  */
-$raydium_http = http_component_kernel( __DIR__ );
+$raydium_http = App::init( __DIR__ );
 
 /*
  * Load constant overrides.
