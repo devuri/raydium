@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0](https://github.com/devuri/raydium/compare/v0.3.8...v0.4.0) (2024-09-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* v0.4.x Update bootstrap.php
+
+### Features
+
+* v0.4 Update bootstrap.php ([b0c17e6](https://github.com/devuri/raydium/commit/b0c17e6ba461d39f7f50ec2033f2b37128cbddee))
+* v0.4.x Update bootstrap.php ([d577fe5](https://github.com/devuri/raydium/commit/d577fe511d135327216759f2674235c4a63ef29e))
+* version v0.4.x update Update wpframework.php ([0c31e9f](https://github.com/devuri/raydium/commit/0c31e9f450f53d3188b03cc3dd85005261d8d228))
+
 ## [0.3.8](https://github.com/devuri/raydium/compare/v0.3.7...v0.3.8) (2024-09-09)
 
 
