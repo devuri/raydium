@@ -3,7 +3,7 @@
 use WPframework\Component\App;
 
 /*
- * This is the bootstrap file for the web application.
+ * This is the bootstrap file.
  *
  * It loads the necessary files and sets up the environment for the application to run.
  * This includes initializing the Composer autoloader, which is used to load classes and packages.
