@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/devuri/raydium/compare/v0.6.0...v0.6.1) (2024-09-12)
+
+
+### Bug Fixes
+
+* app init Update bootstrap.php ([9c91360](https://github.com/devuri/raydium/commit/9c91360d67f63784c21684dda5a32697b7b6dd09))
+
 ## [0.6.0](https://github.com/devuri/raydium/compare/v0.5.1...v0.6.0) (2024-09-12)
 
 
