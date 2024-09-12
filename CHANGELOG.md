@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://github.com/devuri/raydium/compare/v0.4.1...v0.4.2) (2024-09-10)
+
+
+### Bug Fixes
+
+* Update wpframework.php ([b9623e2](https://github.com/devuri/raydium/commit/b9623e2a0403df77115ce9d74d5d1d85d37a7a24))
+
 ## [0.4.1](https://github.com/devuri/raydium/compare/v0.4.0...v0.4.1) (2024-09-10)
 
 
