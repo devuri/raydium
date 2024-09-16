@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/devuri/raydium/compare/v0.7.0...v0.7.1) (2024-09-16)
+
+
+### Bug Fixes
+
+* use v0.6 Update composer.json ([e8dc448](https://github.com/devuri/raydium/commit/e8dc448045d52bc268769ae267ca255b1dcd181c))
+
 ## [0.7.0](https://github.com/devuri/raydium/compare/v0.6.1...v0.7.0) (2024-09-16)
 
 
