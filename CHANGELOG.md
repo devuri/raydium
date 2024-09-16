@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.7.0](https://github.com/devuri/raydium/compare/v0.6.1...v0.7.0) (2024-09-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update bootstrap.php
+
+### Bug Fixes
+
+* Update bootstrap.php ([73fa6bb](https://github.com/devuri/raydium/commit/73fa6bbaa89e42836aee47392e72c9763bbdb658))
+
 ## [0.6.1](https://github.com/devuri/raydium/compare/v0.6.0...v0.6.1) (2024-09-12)
 
 
