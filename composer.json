@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "devuri/wpframework": "^0.5",
+        "devuri/wpframework": "^0.6",
         "johnpbloch/wordpress": "^6.6",
         "devuri/advanced-custom-site-status": "*",
         "wpackagist-plugin/disable-comments": "*",
