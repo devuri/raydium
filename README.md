@@ -2,6 +2,8 @@
 
 Seamlessly launch a fully-equipped WordPress site with `devuri/raydium`, specifically engineered for the rapid development and deployment of secure, scalable WordPress applications. Inspired by the ease of modern development frameworks, it delivers a frictionless setup process infused with industry-leading best practices from the outset.
 
+> Quick start with the basic version [RaydiumXE](https://github.com/devuri/raydiumxe).
+
 ## Installation
 
 Begin by ensuring you meet the prerequisites needed for a successful installation of Raydium:
