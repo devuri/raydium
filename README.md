@@ -1,8 +1,6 @@
 # Raydium
 
-Seamlessly launch a fully-equipped WordPress site with `devuri/raydium`, specifically engineered for the rapid development and deployment of secure, scalable WordPress applications. Inspired by the ease of modern development frameworks, it delivers a frictionless setup process infused with industry-leading best practices from the outset.
-
-> Quick start with the basic version [RaydiumXE](https://github.com/devuri/raydiumxe).
+Seamlessly launch a fully-equipped WordPress site with `devuri/raydium`, specifically for the rapid development and deployment of secure, scalable WordPress applications. Inspired by the ease of modern development frameworks, it delivers a frictionless setup process infused with industry-leading best practices from the outset.
 
 ## Installation
 
@@ -29,15 +27,12 @@ This will serve your project on a local development server at `localhost:8000`.
 
 ## Use Template
 
-You can also use RaydiumX, a template repository with additional features and setup, including deploy actions. Access it here: [RaydiumX](https://github.com/devuri/radiumx). 
-The RaydiumX template is optional and may include opinionated setup.
-
-> There is also a basic minimal version [RaydiumXE](https://github.com/devuri/raydiumxe) template repository.
+You can also use [RaydiumX](https://github.com/devuri/radiumx), a template repository with additional features and setup, including deploy actions. 
+> The RaydiumX template is optional and includes a base opinionated setup.
 
 ## Documentation
 
-Explore the extensive [Raydium Documentation](https://devuri.github.io/wpframework/) to learn about its installation, configuration, and the features it offers. The documentation includes detailed guides, API references, and best practices to help you maximize your use of Raydium.
-
+Explore the extensive [Raydium Documentation](https://devuri.github.io/wpframework/) to learn about its installation, configuration, and the features it offers.
 ## License
 
 This project is open-sourced software licensed under the [MIT License](LICENSE).
