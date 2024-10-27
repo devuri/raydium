@@ -8,7 +8,6 @@ if (file_exists(dirname(__DIR__) . '/vendor/autoload.php')) {
     exit('Cannot find the vendor autoload file.');
 }
 
-
 /**
  * For developers: WordPress debugging mode.
  *
