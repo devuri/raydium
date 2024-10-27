@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "devuri/wpframework": "^0.6",
+        "devuri/wpframework": "^0.7",
         "johnpbloch/wordpress": "^6.6",
         "devuri/advanced-custom-site-status": "*",
         "wpackagist-plugin/disable-comments": "*",
@@ -33,13 +33,13 @@
     "extra": {
         "wordpress-install-dir": "public/wp",
         "installer-paths": {
-            "public/content/mu-plugins/{$name}/": [
+            "public/wp-content/mu-plugins/{$name}/": [
                 "type:wordpress-muplugin"
             ],
-            "public/content/plugins/{$name}/": [
+            "public/wp-content/plugins/{$name}/": [
                 "type:wordpress-plugin"
             ],
-            "public/content/themes/{$name}/": [
+            "public/wp-content/themes/{$name}/": [
                 "type:wordpress-theme"
             ]
         }
