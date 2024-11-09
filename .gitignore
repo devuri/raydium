@@ -15,6 +15,7 @@ public/wp/uploads/*
 public/wp/*
 !public/wp/.gitkeep
 
+public/wp-content/*
 public/content/*
 public/app/*
 !public/app/templates/
