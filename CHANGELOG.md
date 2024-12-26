@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.8.0](https://github.com/devuri/raydium/compare/v0.7.1...v0.8.0) (2024-12-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* `0.7` mu-plugin Update wpframework.php
+* `0.7` Update wp-config.php
+* `0.7` Update composer.json
+
+### Features
+
+* `0.7` mu-plugin Update wpframework.php ([486b360](https://github.com/devuri/raydium/commit/486b36081d4fd05ab405be54919512070d4af029))
+* `0.7` Update composer.json ([c8240c9](https://github.com/devuri/raydium/commit/c8240c956319f3fe33c37d5b855966e08049931c))
+* `0.7` Update wp-config.php ([e4b0244](https://github.com/devuri/raydium/commit/e4b0244f9896b5d02b3214ac699949721e4da51a))
+* adds `"devuri/twigit": "^0.1",` Update composer.json ([751fc44](https://github.com/devuri/raydium/commit/751fc44055b028db1957d90efdabd765e53600e2))
+* adds mu-plugin `Twigit`  Create twigit.php ([37301ae](https://github.com/devuri/raydium/commit/37301aed8c2cc83f5c8854b040fcdb7616d27a5e))
+
+
+### Bug Fixes
+
+* update `wp-content` dir ([46d180e](https://github.com/devuri/raydium/commit/46d180e782da425b076b93e9062d67e325a01f88))
+* update main mu-plugin Update wpframework.php ([2b6877a](https://github.com/devuri/raydium/commit/2b6877a6ff5cb159922f2c889bc728804d3d87d2))
+* wp-content Update .gitignore ([e5ea0bb](https://github.com/devuri/raydium/commit/e5ea0bb4a870a5c97c39b6a250ebaea8eb87c819))
+
+
+### Miscellaneous Chores
+
+* 0.7 Update README.md ([e533f48](https://github.com/devuri/raydium/commit/e533f4804e8b37dbaa1b370f0ef2f763a571666b))
+
 ## [0.7.1](https://github.com/devuri/raydium/compare/v0.7.0...v0.7.1) (2024-09-16)
 
 
