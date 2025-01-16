@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "devuri/wpframework": "^0.7",
+        "devuri/wpframework": "^0.9",
         "devuri/twigit": "^0.1",
         "johnpbloch/wordpress": "^6.6",
         "devuri/advanced-custom-site-status": "*",
