@@ -1,14 +1,27 @@
 <?php
+
 /**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
+ * Define whether to use WordPress themes.
  */
 define( 'WP_USE_THEMES', true );
 
-if ( file_exists( __DIR__ . '/wp/wp-blog-header.php' ) ) {
-	require __DIR__ . '/wp/wp-blog-header.php';
+/**
+ * Define lightweight framework mode.
+ */
+define( 'HYBRIDX', false );
+
+/**
+ * Bootstrap the application.
+ */
+if (\defined('HYBRIDX') && true === \constant('HYBRIDX')) {
+    $initializationConfigPath = __DIR__ . '/wp-config.php';
+    if (file_exists($initializationConfigPath)) {
+        require $initializationConfigPath;
+    } else {
+        exit("Error: initialization file wp-config.php not found. Please check your configuration.");
+    }
+} elseif (file_exists(__DIR__ . '/wp/wp-blog-header.php')) {
+    require __DIR__ . '/wp/wp-blog-header.php';
 } else {
-    exit("Looks like the framework is not setup, run setup or composer install.");
+    exit("Error: Framework setup incomplete. Run setup or 'composer install' to proceed.");
 }
