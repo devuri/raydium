@@ -27,12 +27,8 @@ This will serve your project on a local development server at `localhost:8000`.
 
 ## Use Template
 
-#### RaydiumX
-[RaydiumX](https://github.com/devuri/raydiumx) is a template repository with additional features and setup, including deploy actions. 
-> The RaydiumX template is optional and includes a base opinionated setup.
-
 #### Raydium Express
-[Raydium Express](https://github.com/devuri/raydium-express) A lightweight starter kit optimized for rapid setup.
+[Raydium Express](https://github.com/devuri/raydiumx) A lightweight starter kit optimized for rapid setup.
 This template is optimized for instant deployment.
 > configured to launch production-ready applications.
 
