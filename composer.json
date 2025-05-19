@@ -29,6 +29,10 @@
                 "wpackagist-plugin/*",
                 "wpackagist-theme/*"
             ]
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/devuri/wpframework"
         }
     ],
     "extra": {
