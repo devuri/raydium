@@ -14,6 +14,7 @@
         "wpackagist-plugin/disable-json-api": "*",
         "wpackagist-plugin/email-log": "*",
         "wpackagist-plugin/query-monitor": "*",
+        "wpackagist-plugin/wps-hide-login": "*",
         "wpackagist-plugin/stream": "*",
         "wpackagist-plugin/sucuri-scanner": "*",
         "wpackagist-plugin/wp-white-label-login": "*",
