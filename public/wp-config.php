@@ -13,7 +13,7 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 /* That's all, stop editing! Happy publishing. */
 
-$siteAppFactory = AppFactory::create(dirname(__DIR__));
+$siteAppFactory = AppFactory::create(__DIR__);
 
 AppFactory::run();
 
