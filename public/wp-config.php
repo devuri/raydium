@@ -15,7 +15,8 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 $siteAppFactory = AppFactory::create(__DIR__);
 
-AppFactory::run();
+// Run the application.
+$siteAppFactory->run();
 
 $table_prefix = env('DB_PREFIX');
 
