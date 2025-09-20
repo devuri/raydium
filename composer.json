@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "devuri/wpframework": "^0.10",
+        "devuri/wpframework": "^0.11",
         "devuri/twigit": "^0.1",
         "johnpbloch/wordpress": "^6.6",
         "devuri/advanced-custom-site-status": "*",
@@ -17,7 +17,6 @@
         "wpackagist-plugin/wps-hide-login": "*",
         "wpackagist-plugin/stream": "*",
         "wpackagist-plugin/sucuri-scanner": "*",
-        "wpackagist-plugin/wp-white-label-login": "*",
         "wpackagist-theme/kadence": "*",
         "devuri/wp-kdx-canvas": "^0.2",
         "wpackagist-theme/twentytwentyfour": "*"
