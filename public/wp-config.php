@@ -27,6 +27,20 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 // define('USE_TWIGIT', true);
 // define('DISABLE_PAGE_EDITOR_FIELD', true);
 
+/**
+ * SHOULD only be used in cases where you need to debug something.
+ * When set to true, Raydium will not be loaded - only DB credentials and salts are loaded.
+ * The rest of the framework will be disabled and custom constants will not be loaded.
+ *
+ * You can ignore the docs at this point. The only thing that's done is loading the env file
+ * so we have access to .env file values to bootstrap WP. The site might still work, but
+ * keep in mind all other constants, configs, etc. are ignored.
+ *
+ * Run at your own risk. This is here for those hard-to-track-down bugs or in rare cases
+ * where you need to bypass the framework entirely.
+ */
+// define('DANGEROUSLY_DISABLE_RAYDIUM', false);
+
 
 /* That's all, stop editing! Happy publishing. */
 
@@ -63,4 +77,3 @@ if (! defined('ABSPATH')) {
 
 // Load WordPress settings
 require_once ABSPATH . 'wp-settings.php';
-
