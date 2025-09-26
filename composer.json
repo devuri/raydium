@@ -17,6 +17,7 @@
         "wpackagist-plugin/wps-hide-login": "*",
         "wpackagist-plugin/stream": "*",
         "wpackagist-plugin/sucuri-scanner": "*",
+        "wpackagist-plugin/two-factor": "*",
         "wpackagist-theme/kadence": "*",
         "devuri/wp-kdx-canvas": "^0.2",
         "wpackagist-theme/twentytwentyfour": "*"
